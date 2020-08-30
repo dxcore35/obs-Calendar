@@ -1,4 +1,4 @@
-# Obsidian inserting of Calendar
+# Inserting of the linked Calendar with all your daily notes
 
 This script does the following:
 
