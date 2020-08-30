@@ -48,6 +48,7 @@ And the following text is typed in Obsidian:
 
 After executing the script, it would be replaced with the following:
 
+![](https://github.com/dxcore35/obs-Calendar/blob/master/Calendar.jpg)
 
 ## Notes
 
