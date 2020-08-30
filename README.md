@@ -33,9 +33,8 @@ This script does the following:
 
 Assuming you had the following daily notes in your Obsidian vault:
 
-__diary_regex__ =   ```"%d-%b-%y"```
-
-__notes_folder__ =  ```"/Obsidian/Diary/"```
+- __diary_regex__ =   ```"%d-%b-%y"```
+- __notes_folder__ =  ```"/Obsidian/Diary/"```
 
 Your daily notes looks like:
 
