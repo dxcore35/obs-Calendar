@@ -22,8 +22,9 @@ This script does the following:
 ## Setup
 
 1. Install Keyboard meastro script
-2. Copy script __(obs-insert_calendar.py)__ in fixed folder e.g (Obsidian/Scripts/)
-3. Open script __(obs-insert_calendar.py)__ in text editor and edit values to fit your settings:
+2. Open Keyboard maestro and replace PATH with path to your script (```"./Obsidian/Scripts/obs-insert_calendar.py```
+2. Copy script ```(obs-insert_calendar.py)``` in fixed folder
+3. Open script ```(obs-insert_calendar.py)```in text editor and edit values to fit your settings:
 	- __diary_regex__ - change to regex of the names of your daily notes
 	- __notes_folder__ - to location of your daily notes folder in Obsidian
 4. You can also change additional variables in the script to tweak to Calendar look
@@ -32,33 +33,22 @@ This script does the following:
 
 Assuming you had the following daily notes in your Obsidian vault:
 
-__diary_regex__ =   "%d-%b-%y"
-__notes_folder__ =  "/Obsidian/Diary/"
+__diary_regex__ =   ```"%d-%b-%y"```
+
+__notes_folder__ =  ```"/Obsidian/Diary/"```
 
 Your daily notes looks like:
 
-* 04-Aug-20.md
-* 05-Aug-20.md
-* 06-Aug-20.md
+- ```04-Aug-20.md```
+- ```05-Aug-20.md```
+- ```06-Aug-20.md```
 
-And the following text in your clipboard to import:
+And the following text is typed in Obsidian:
 
 ```:2020_08```
 
 After executing the script, it would be replaced with the following:
 
-## Aliases
-
-You can use a file named aliases.yml in your vault root to broaden the title matching in your text to include aliases.
-
-#### Format
-
-```
-Note Title:
-- alias 1
-- alias 2
-- alias 3
-```
 
 ## Notes
 
