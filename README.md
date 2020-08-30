@@ -1,4 +1,9 @@
-# Inserting of the linked Calendar with all your daily notes
+# Inserting of markdown formatted Calendar with links to all your daily notes
+
+__Input:__ ```:2020_08```
+
+__Output:__
+![](https://github.com/dxcore35/obs-Calendar/blob/master/Calendar_header.jpg)
 
 This script does the following:
 
