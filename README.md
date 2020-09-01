@@ -5,7 +5,7 @@ __Input:__ ```:2020_08```
 __Output:__
 ![](https://github.com/dxcore35/obs-Calendar/blob/master/Calendar_header.jpg)
 
-This script does the following:
+The workflow is following:
 
 1) __Keyboard maestro extension as trigger of the script__
 2) __Script__
