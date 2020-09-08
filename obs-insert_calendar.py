@@ -10,7 +10,9 @@ import pathlib
 
 #//////////////// SETTINGS ///////////////////
 
-diary_regex = "!!!!MODIFY!!!!!"  # Daily notes pattern in Obsidian, pattern need to be standard regex pattern, it is not same as in Obsidian!
+diary_regex = "!!!!MODIFY!!!!!"  # Daily notes pattern in Obsidian. Pattern needs to be in regex format with strftime formatting
+                                 # - for date formatting pattern see: https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes
+
 notes_folder = "!!!!MODIFY!!!!!" # Daily notes folder
 
 # Trigger setting
